@@ -2,10 +2,6 @@
 
 Documentación para ejecutar este proyecto en tu máquina.
 
-## Descripción
-
-Este es un proyecto simple que permite trabajar con modelos de actualización sin complejidad innecesaria. Diseñado para ser fácil de instalar y ejecutar en cualquier máquina.
-
 ## Requisitos Previos
 
 No necesitas instalar nada, el proyecto está construido sobre HTML y JS, utilizando Tensorflow via CDN.
