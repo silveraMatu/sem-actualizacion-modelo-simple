@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción con TensorFlow.js | y = 2x + 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+</head>
+<body>
+    <div class="background-anim"></div>
+    <main class="container">
+        <header>
+            <h1>Modelo Predictivo</h1>
+            <p>y = 2x + 6</p>
+        </header>
+
+        <section class="status-panel glass">
+            <div class="status-indicator">
+                <div id="status-dot" class="dot training"></div>
+                <h2 id="status-text">Entrenando el modelo...</h2>
+            </div>
+            <p id="epoch-info">Época: 0 / 350</p>
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+        </section>
+
+        <section id="prediction-panel" class="prediction-panel glass hidden">
+            <h3>Realizar Predicción</h3>
+            <div class="input-group">
+                <label for="x-input">Valor de X:</label>
+                <input type="number" id="x-input" placeholder="Ej: 10" disabled>
+            </div>
+            <button id="predict-btn" class="btn primary" disabled>Predecir (Y)</button>
+            
+            <div id="result-container" class="result-container hidden">
+                <h4>Resultado Estimado (Y)</h4>
+                <div id="result-value" class="result-value">-</div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
