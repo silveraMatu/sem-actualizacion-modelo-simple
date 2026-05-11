@@ -17,13 +17,7 @@ No necesitas instalar nada, el proyecto está construido sobre HTML y JS, utiliz
 Copia y ejecuta el siguiente comando en tu terminal:
 
 ```bash
-git clone [INSERTA_AQUI_EL_ENLACE_DEL_REPOSITORIO]
-```
-
-**Ejemplo con un repositorio de GitHub:**
-
-```bash
-git clone https://github.com/tu-usuario/sem-actualizacion-modelo-simple.git
+git clone https://github.com/silveraMatu/sem-actualizacion-modelo-simple.git
 ```
 
 ### 2. Acceder al Directorio del Proyecto
